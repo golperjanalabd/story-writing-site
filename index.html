@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="মৌলিক বাংলা গল্প জমা দিন। নির্বাচিত গল্প এককালীন সম্মানীর বিনিময়ে কেনা হতে পারে।">
+  <title>গল্পের জানালা | লিখুন, গল্প জমা দিন</title>
+  <style>
+    :root{--ink:#17251f;--muted:#617068;--cream:#f7f5ef;--paper:#fffefa;--green:#1d6048;--lime:#d8edb5;--line:#e3e6dd;--orange:#e99b59}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:"Noto Sans Bengali","Hind Siliguri","SolaimanLipi",system-ui,sans-serif;line-height:1.75}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    header{padding:22px 0;background:rgba(247,245,239,.94);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;font-size:1.25rem;color:var(--green);text-decoration:none;display:flex;align-items:center;gap:10px}
+    .brand-mark{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--green);color:white;font-size:1.1rem}
+    nav{display:flex;gap:22px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);font-size:.94rem}nav a:hover{color:var(--green)}
+    .hero{padding:76px 0 68px;position:relative;overflow:hidden;background:radial-gradient(circle at 85% 20%,#e3edcf 0,transparent 30%),var(--cream)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center}
+    .eyebrow{display:inline-block;color:var(--green);background:#e8efdf;border-radius:999px;padding:5px 13px;font-size:.86rem;font-weight:700}
+    h1{font-size:clamp(2.3rem,5vw,4.6rem);line-height:1.18;letter-spacing:-.035em;margin:20px 0}
+    h1 em{font-style:normal;color:var(--green)} .lead{font-size:1.12rem;color:var(--muted);max-width:640px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid var(--green)}.btn-primary{background:var(--green);color:white}.btn-secondary{color:var(--green);background:transparent}
+    .note{font-size:.88rem;color:var(--muted);margin-top:14px}
+    .art{background:var(--green);color:white;border-radius:28px;padding:30px;min-height:330px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}
+    .art:after{content:"“";font-family:Georgia,serif;position:absolute;right:8px;top:-80px;font-size:22rem;line-height:1;color:rgba(255,255,255,.09)}
+    .art small{color:var(--lime);font-weight:700;letter-spacing:.08em}.art blockquote{font-size:1.65rem;line-height:1.55;margin:35px 0;position:relative;z-index:1}.art .scribble{align-self:flex-end;font-size:.9rem;color:#d9e6db}
+    section{padding:70px 0}.section-head{max-width:700px;margin-bottom:32px}.section-head h2{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.25;margin:0 0 12px}.section-head p{color:var(--muted);margin:0}
+    .topics{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.topic,.step,.panel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px}.topic .emoji{font-size:1.8rem}.topic h3{margin:8px 0 5px}.topic p{margin:0;color:var(--muted);font-size:.95rem}
+    .soft{background:#eef1e8}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.num{width:38px;height:38px;border-radius:50%;background:var(--lime);color:var(--green);display:grid;place-items:center;font-weight:900}.step h3{margin:12px 0 5px}.step p{margin:0;color:var(--muted)}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.panel h3{margin-top:0}.panel ul{padding-left:22px}.panel li{margin:7px 0}.warning{border-left:4px solid var(--orange);padding:12px 16px;background:#fff5e9;border-radius:0 12px 12px 0;color:#664526}
+    .submit{background:var(--green);color:white;border-radius:26px;padding:42px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}.submit h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.25;margin:0 0 10px}.submit p{color:#e0e9e1;margin:0}.submit .btn{background:var(--lime);border-color:var(--lime);color:var(--ink);white-space:nowrap}
+    details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:800}details p{color:var(--muted);margin-bottom:0}
+    footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:800px){.hero-grid,.two-col{grid-template-columns:1fr}.topics{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.submit{grid-template-columns:1fr}.hero{padding:50px 0}.art{min-height:260px}nav{gap:12px}}
+    @media(max-width:480px){nav{display:none}.topics{grid-template-columns:1fr}.submit{padding:28px}.art blockquote{font-size:1.35rem}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="brand-mark">গ</span> গল্পের জানালা</a>
+    <nav aria-label="প্রধান নেভিগেশন">
+      <a href="#topics">গল্পের বিষয়</a><a href="#process">যেভাবে কাজ করবে</a><a href="#rules">নিয়মাবলি</a><a href="#faq">প্রশ্নোত্তর</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">লেখক ও গল্পপ্রেমীদের জন্য আহ্বান</span>
+        <h1>আপনার গল্প লিখুন।<br><em>আপনার লেখার মূল্য</em> তুলে ধরুন।</h1>
+        <p class="lead">জীবন, সমাজ, রাজনীতি কিংবা ভালোবাসা নিয়ে আপনার মৌলিক বাংলা গল্প জমা দিন। নির্বাচিত গল্প এককালীন অর্থের বিনিময়ে কেনা হতে পারে এবং লেখকের নাম প্রকাশ না করেও প্রকাশ করা হতে পারে।</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#submit">গল্প জমা দেওয়ার নিয়ম দেখুন ↗</a>
+          <a class="btn btn-secondary" href="#process">প্রক্রিয়া জানুন</a>
+        </div>
+        <p class="note">গল্প জমা দিলেই অর্থপ্রাপ্তি নিশ্চিত নয়। কেবল নির্বাচিত ও ক্রয়ের জন্য সম্মত গল্পের ক্ষেত্রেই অর্থ প্রদান করা হবে।</p>
+      </div>
+      <div class="art">
+        <small>আপনার ভাবনা। আপনার ভাষা। আপনার গল্প।</small>
+        <blockquote>“কখনো একটি গল্পই পারে মানুষের দেখা পৃথিবীটাকে নতুন করে চিনতে শেখাতে।”</blockquote>
+        <span class="scribble">কলম ধরুন, গল্প বলুন।</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="topics">
+    <div class="wrap">
+      <div class="section-head"><h2>কী ধরনের গল্প লিখবেন?</h2><p>আপনার অভিজ্ঞতা, পর্যবেক্ষণ বা কল্পনা থেকে বেছে নিন যে কোনো বিষয়। গল্পটি হতে হবে মৌলিক, পাঠযোগ্য এবং ভাবনাসমৃদ্ধ।</p></div>
+      <div class="topics">
+        <article class="topic"><div class="emoji">🌱</div><h3>জীবন ও বাস্তবতা</h3><p>সংগ্রাম, স্বপ্ন, পরিবার, সাফল্য-ব্যর্থতা ও জীবনের বাঁকবদল।</p></article>
+        <article class="topic"><div class="emoji">🤝</div><h3>সমাজ ও মানুষ</h3><p>সামাজিক সমস্যা, বৈষম্য, মানবিকতা ও পরিবর্তনের গল্প।</p></article>
+        <article class="topic"><div class="emoji">🗳️</div><h3>রাজনীতি ও ক্ষমতা</h3><p>রাজনৈতিক বাস্তবতা, ক্ষমতার দ্বন্দ্ব ও সাধারণ মানুষের অভিজ্ঞতা।</p></article>
+        <article class="topic"><div class="emoji">❤️</div><h3>প্রেম ও সম্পর্ক</h3><p>ভালোবাসা, বিরহ, সম্পর্কের টানাপোড়েন ও আবেগের গল্প।</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="soft">
+    <div class="wrap">
+      <div class="section-head"><h2>গল্প থেকে প্রকাশনা: তিনটি ধাপ</h2><p>প্রক্রিয়াটি সহজ ও স্বচ্ছ রাখাই আমাদের লক্ষ্য।</p></div>
+      <div class="steps">
+        <article class="step"><div class="num">১</div><h3>গল্প তৈরি করুন</h3><p>নিজের লেখা মৌলিক গল্প প্রস্তুত করুন। একটি উপযুক্ত শিরোনাম দিন এবং প্রয়োজন হলে ছোট্ট পরিচিতি যোগ করুন।</p></article>
+        <article class="step"><div class="num">২</div><h3>সম্পাদকের কাছে পাঠান</h3><p>নির্ধারিত ইমেইলে গল্প পাঠান। সম্পাদকীয় দল বিষয়বস্তু, মৌলিকতা ও লেখার মান বিবেচনা করবে।</p></article>
+        <article class="step"><div class="num">৩</div><h3>নির্বাচন ও এককালীন অর্থ</h3><p>গল্প নির্বাচিত হলে ক্রয়মূল্য, স্বত্ব ও প্রকাশের শর্ত আগে আলোচনা করে সম্মতি নেওয়া হবে।</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="rules">
+    <div class="wrap">
+      <div class="section-head"><h2>জমা দেওয়ার আগে যা জানা জরুরি</h2><p>লেখক ও প্রকাশনা উদ্যোগের মধ্যে আস্থা বজায় রাখতে শর্তগুলো স্পষ্ট রাখা প্রয়োজন।</p></div>
+      <div class="two-col">
+        <div class="panel">
+          <h3>গল্প জমা দেওয়ার নিয়ম</h3>
+          <ul>
+            <li>গল্পটি অবশ্যই আপনার নিজের লেখা ও মৌলিক হতে হবে।</li>
+            <li>ইমেইলের সঙ্গে গল্পের শিরোনাম ও যোগাযোগের তথ্য দিন।</li>
+            <li>অন্যের লেখা, অনুমতিহীন অনুবাদ বা কপি করা লেখা পাঠাবেন না।</li>
+            <li>একই গল্প আগে কোথাও প্রকাশিত হলে তা স্পষ্টভাবে জানান।</li>
+            <li>গল্প পাঠানোর আগে নিজের কাছে একটি কপি রেখে দিন।</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>সম্মানী ও লেখকের পরিচয়</h3>
+          <ul>
+            <li>গল্প জমা দেওয়া মানেই নির্বাচিত হওয়া বা অর্থ পাওয়া নিশ্চিত নয়।</li>
+            <li>শুধু নির্বাচিত এবং ক্রয়ের শর্তে সম্মত গল্পের জন্য এককালীন অর্থ দেওয়া হবে।</li>
+            <li>ক্রয়মূল্য ও অর্থ প্রদানের সময়সীমা লেখকের সঙ্গে আগেই লিখিতভাবে নিশ্চিত করা হবে।</li>
+            <li>প্রকাশিত গল্পে লেখকের নাম প্রকাশ করা হবে না। তবে যোগাযোগ ও অর্থপ্রদানের জন্য প্রয়োজনীয় তথ্য গোপনীয়ভাবে রাখা হতে পারে।</li>
+            <li>কপিরাইট, প্রকাশস্বত্ব ও অন্য ব্যবহারের অধিকার লিখিত চুক্তিতে নির্দিষ্ট করা হবে।</li>
+          </ul>
+        </div>
+      </div>
+      <p class="warning" style="margin-top:22px">স্বচ্ছতার জন্য: এই উদ্যোগের আয়োজকের পরিচয়, যোগাযোগের ঠিকানা এবং নির্দিষ্ট সম্মানীর নীতি প্রকাশের আগে ওয়েবসাইটে যোগ করুন। কোনো গল্পের ক্রয় বা প্রকাশের নিশ্চয়তা দেওয়া হচ্ছে না।</p>
+    </div>
+  </section>
+
+  <section id="submit">
+    <div class="wrap">
+      <div class="submit">
+        <div><h2>আপনার গল্প কি প্রস্তুত?</h2><p>গল্প পাঠানোর আগে নিয়মাবলি পড়ে নিন। নিচের ইমেইল ঠিকানাটি চালু করার পর বোতামটি ব্যবহার করে গল্প পাঠাতে পারবেন।</p></div>
+        <a class="btn" href="mailto:YOUR_EMAIL@example.com?subject=%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%20%E0%A6%9C%E0%A6%AE%E0%A6%BE">ইমেইলে গল্প পাঠান ↗</a>
+      </div>
+      <p class="note">সাইট প্রকাশের আগে <strong>YOUR_EMAIL@example.com</strong> আপনার প্রকৃত ইমেইল ঠিকানা দিয়ে বদলে দিন।</p>
+    </div>
+  </section>
+
+  <section id="faq" class="soft">
+    <div class="wrap">
+      <div class="section-head"><h2>সাধারণ প্রশ্ন</h2></div>
+      <details><summary>গল্প পাঠালেই কি টাকা পাওয়া যাবে?</summary><p>না। গল্প পাঠানো মানেই ক্রয় বা অর্থপ্রাপ্তির নিশ্চয়তা নয়। নির্বাচিত গল্পের ক্ষেত্রে ক্রয়মূল্য ও শর্তে সম্মতি হলে তবেই অর্থ প্রদান করা হবে।</p></details>
+      <details><summary>আমার নাম কি প্রকাশ করা হবে?</summary><p>প্রকাশিত গল্পে লেখকের নাম প্রকাশ করা হবে না। তবে সম্পাদনা ও অর্থপ্রদানের প্রয়োজনে আপনার পরিচয় যোগাযোগের জন্য সংগ্রহ করা হতে পারে এবং তা গোপনীয়ভাবে পরিচালনা করা উচিত।</p></details>
+      <details><summary>গল্পের স্বত্ব কার থাকবে?</summary><p>এটি গল্প কেনার সময় লিখিত চুক্তিতে নির্দিষ্ট করা হবে। ক্রয়মূল্য, স্বত্ব হস্তান্তর, পুনঃপ্রকাশ ও অন্যান্য ব্যবহারের শর্ত বুঝে সম্মতি দিন।</p></details>
+      <details><summary>কোন ভাষায় গল্প পাঠানো যাবে?</summary><p>এই প্রাথমিক আহ্বান বাংলা ভাষায় মৌলিক গল্পের জন্য। অন্য ভাষায় গল্প গ্রহণ করা হলে তা আলাদাভাবে জানানো হবে।</p></details>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap foot"><span>© <span id="year">2026</span> গল্পের জানালা · বাংলা গল্পের জন্য একটি উদ্যোগ</span><span>যোগাযোগ: YOUR_EMAIL@example.com</span></div>
+</footer>
+</body>
+</html>
